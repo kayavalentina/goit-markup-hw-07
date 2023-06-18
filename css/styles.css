@@ -1120,8 +1120,15 @@ img {
     }
 
     .hero {
-        font-size: 30px;
-        max-width: 320px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--text-color);    
     }
 
     .hero-list {
@@ -1166,13 +1173,28 @@ img {
     }
 
     .hero {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
         font-size: 36px;
-        max-width: 320px;
-        max-height: 80px;
+        line-height: 1.1;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--text-color);    
     }
-
     .button {
         margin-top: 72px;
+    }
+
+    .section-hero {
+        height: 432px;
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
 
