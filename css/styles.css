@@ -1216,15 +1216,15 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
     .adress {
         display: none;
     }
-
     .section-hero {
-        height: 100%;
+        max-height: 432px;
         top: 70px;
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         background-size: cover;
+        padding: 112px 54px;
     }
 
     .hero {
@@ -1238,10 +1238,13 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
         text-transform: capitalize;
         color: var(--text-color);
     }
+    .button{
+        margin-top: 72px;
+    }
 
     .hero-list {
         width: 100%;
-        padding: 112px 54px;
+        margin-top: 112px;
     }
 
     .about-work-all {
@@ -1486,7 +1489,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 
     .about-work-all {
         padding: 0 auto;
-        width: 100%;
+        max-width: 396px;
         margin-top: 96px;
     }
 
@@ -1496,14 +1499,11 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
         align-items: center;
         justify-content: center;
         gap: 72px;
+
     }
 
     .about-work-list-text {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        width: 100%;  
     }
 
     .about-work {
