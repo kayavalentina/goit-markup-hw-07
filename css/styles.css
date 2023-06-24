@@ -1353,7 +1353,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-start;
-        gap: 24px;
+        gap: 12px;
     }
 
     .portfolio-images-list {
