@@ -1158,10 +1158,12 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 
 /* media query for screen sizes 427px and smaller */
 @media screen and (max-width: 427px) {
+    .header {
+        padding: 0;
+    }
     .mobile-numer-link {
         font-size: 20px;
     }
-
     .mobile-menu {
         position: fixed;
         max-width: 427px;
