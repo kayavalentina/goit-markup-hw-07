@@ -1355,7 +1355,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
         justify-content: flex-start;
         gap: 12px;
     }
-
+  
     .portfolio-images-list {
         display: flex;
         flex-direction: column;
@@ -1670,6 +1670,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
     .services-text {
         font-size: 16px;
     }
+   
 
     .footer {
         display: flex;
